@@ -7,37 +7,7 @@
 
 /* //////// 2nd nav bar////////// */
 /* ////////////////////////////// */
-.navbar-nav .nav-link {
-  color: #2713bd;
-}
-.dropend .dropdown-toggle {
-  color: salmon;
-  margin-left: 1em;
-}
-.dropdown-item:hover {
-  background-color: lightsalmon;
-  color: #db1717;
-}
-.dropdown .dropdown-menu {
-  display: none;
-}
-.dropdown:hover > .dropdown-menu,
-.dropend:hover > .dropdown-menu {
-  display: block;
-  margin-top: 0.125em;
-  margin-left: 0.125em;
-}
-@media screen and (min-width: 769px) {
-  .dropend:hover > .dropdown-menu {
-    position: absolute;
-    top: 0;
-    left: 100%;
-  }
-  .dropend .dropdown-toggle {
-    margin-left: 0.5em;
-  }
-}
-
+ 
 /* //////////nav bar end////////////// */
 /* /////////////////////////////////// */
 
@@ -94,7 +64,9 @@
 /* 4444444444444444 nav bar end 4444444444444444
 44444444444444444444444444444444 */
 
-
+.misvispara span{
+  font-size: small;
+}
 
 #hero h1 {
   font-family: 'Merriweather', serif;
@@ -226,7 +198,7 @@ body {
 }
 
 #contactdiv p {
-  font-size: 1.2rem;
+  font-size: 1rem;
 
 }
 
@@ -242,7 +214,7 @@ body {
 
 form {
   margin-left: 55rem !important;
-  min-width: 400px;
+  min-width: 460px;
   max-width: 600px;
   height: 450px;
   padding: 20px;
@@ -300,10 +272,9 @@ body {
 
 
 #contactform {
-
+/* padding-right: 8rem; */
   background-image: url('https://uvtechsoft.com/web/cont.png');
-
-  padding-right: 10rem;
+/* padding-right: 10rem; */
   margin-bottom: 5rem;
 
 }
@@ -355,7 +326,7 @@ iframe {
 //////////////// */
 
 .advertisers-service-sec .col {
-  padding: 0 1em 1em 1em;
+  padding: 0 2em 1em 2em;
   text-align: center;
 }
 
@@ -735,11 +706,11 @@ h2 {
   height: 2.5rem;
   width: 10rem;
   border-radius: 1rem;
-
+border: 2px solid white;
 }
 
 #scrolbtn:hover {
-  background-color: white;
+  background-color: rgb(173, 168, 168);
   color: black;
 }
 
@@ -941,7 +912,7 @@ td {
 .tabcontent {
   color: white;
   display: none;
-  padding: 70px 20px 20px;
+  padding: 80px 20px 20px;
   height: 100%;
 }
 
@@ -969,7 +940,7 @@ td {
   text-align: center;
   padding: 1.4rem;
 }
-
+ 
 
 /* ///////////////////////////////use cases////////////////////////////////////// */
 
@@ -1127,7 +1098,6 @@ td {
   }
 
   iframe {
-
     height: 15rem !important;
     width: 23rem !important;
 
@@ -1137,7 +1107,7 @@ td {
   #contactform {
     margin-left: 0;
     padding: 0.5rem;
-
+    margin-bottom: 0rem;
   }
 
   .coll {
@@ -1180,9 +1150,10 @@ td {
   }
 
   form {
-
-    margin-left: 0rem !important;
-    margin-right: 0.5rem;
+    /* margin-left: 3rem !important; */
+    /* margin-left: 0rem !important; */
+    /* margin-right: 0.5rem; */
+    min-width: 340px;
   }
 
   .mvdivmedia {
@@ -1326,7 +1297,7 @@ td {
   }
 
   #upcommingdiv button {
-    font-size: 0.7rem;
+    font-size: 0.6rem;
   }
 
   #upcommingdiv {
@@ -1347,7 +1318,39 @@ td {
   #keytext div h1 {
     font-size: 2rem;
   }
+  #contactmap div p {
+    font-size: 0.8em;
 }
+#contactmap {
+  margin-bottom: 0rem !important;
+}
+.fandown {
+  height: 16rem;
+  width: 14rem;
+}
+.partinfoimg{
+  margin-top: 2rem;
+}
+#relaytablediv img {
+  height: 17rem;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media screen and (max-width:769px) {
@@ -1381,20 +1384,20 @@ td {
     height: 23rem !important;
   }
 
-  form {
+  /* form {
     min-width: 285px;
     max-width: 329px;
     height: 450px;
-    margin-left: 23rem !important;
-  }
+     
+  } */
 
   #contactform {
-    padding-right: 0rem;
+    /* padding-right: 0rem; */
     background: none;
   }
 
   #contactmap {
-    padding-top: 6rem;
+    padding-top: 5rem;
     margin-bottom: 4rem;
   }
 
@@ -1442,7 +1445,7 @@ td {
   form {
     min-width: 301px;
     height: 450px;
-    margin-right: 0.5rem;
+     
     margin-left: 0rem !important;
   }
 
@@ -1453,6 +1456,10 @@ td {
   #About {
     height: auto;
   }
+  #relaytablediv img {
+    height: 15rem;
+}
+ 
 }
 
 @media screen and (max-width:321px) {
@@ -1496,12 +1503,14 @@ td {
     height: 13rem;
   }
 
-  /* #upcommingdiv .fbtnup {
-    padding-bottom: 31px;
-  } */
 }
 
-
+@media screen and (max-width:1025px)and (min-width:322px) {
+  form {
+    margin-left:0 !important;
+  }
+  
+}
 
 
 @media screen and (max-width:1025px) and (min-width:769px) {
@@ -1509,11 +1518,10 @@ td {
     height: 25rem;
     width: 29rem;
   }
-
   form {
-    margin-left: 33rem !important;
+    margin-left:0 !important;
   }
-
+  
 
 
 }
