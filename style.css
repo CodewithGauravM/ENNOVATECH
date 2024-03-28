@@ -8,7 +8,10 @@
 .contactimgeno {
   width: 240px;
 }
-
+.ulstyletype li a{
+   font-weight: bold;
+    
+}
  
 .ulstyletype li{
   list-style-type: none;
@@ -226,8 +229,7 @@ form button:hover {
 body {
 
   background: #70e1f5;
-  /* background: -webkit-linear-gradient(to right, #f1e9de, rgb(153, 204, 255)); */
-  /* background: linear-gradient(to right, #ffd194, rgb(153, 204, 255)); */
+  
   background: linear-gradient(to right, #d4d6d5, rgb(163, 209, 254));
 
 }
@@ -707,7 +709,7 @@ h2 {
 #itimghideandview li a {
   text-decoration: none;
   text-transform: uppercase;
-  color: #3f5df3;
+  color: #871111;
 }
 
 #itimghideandview p {
@@ -768,7 +770,9 @@ td {
 #relaytablediv tr:hover {
   background-color: #86b4ef;
 }
-
+#relaykeyfesp{
+  margin-top: 5rem !important;
+}
 #relaykeyfesp span {
   font-weight: bold;
 }
