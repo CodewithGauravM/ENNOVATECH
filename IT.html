@@ -4,52 +4,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link rel="stylesheet" href="./style.css">
-    <title>Document</title>
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">ENNOVA</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="nav-overlay"></div>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2  mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./about.html">About Us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./ITService.html">OUR SERVICE</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./Nproduct.html">OUR PRODUCT</a>
-                        </li>
-                       
-                        <li class="nav-item">
-                            <a class="nav-link" href="./Contact.html">Contact Us</a>
-                        </li>
-                        
-                    </ul>
-                </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top ">
+        <div class="container-fluid">
+
+            <div>
+                <a class="navbar-brand" href="./index.html">
+                    <img src="./Hero/logo-removebg-preview.png" width="70px" alt="">
+                    <img src="./Hero/ENNOVAlogo.png" width="130px"></a>
             </div>
-        </nav>
-    </header>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex align-items-center fw-bold ">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./about.html">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            What we do
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="./ITService.html">OUR SERVICE</a></li>
+                            <li><a class="dropdown-item" href="./Nproduct.html">OUR PRODUCT</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Contact.html">Contact Us</a>
+                    </li>
+                    <li><a href="tel:+917972911543" class="fw-bold m-2 btn btn-primary text-light">Call Now</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
     <h2 class="text-center ">IT Solutions</h2>
    
     <div id="Web_design" >
-        <section id="itimghideandview" class="container-fluid ">
+        <section id="itimghideandview" class="container-fluid upmallpage">
 
             <div class="row  ">
                 <div class="col-lg-1"></div>
@@ -106,7 +118,7 @@
                                     <img class="img-fluid  imghight" src="./it solution/portal.jpg" alt="">
     
                                 </div>
-                                <h3 class="fs-4 mt-3 fw-bold">Website Portal</h3>
+                                <h3 class="fs-4 mt-3 fw-bold">Web Portal</h3>
                             </div>
                         </div>
     
@@ -115,7 +127,7 @@
                                 <div class="icon-wrapper">
                                     <img class="img-fluid  imghight" src="./it solution/Web Application.avif" alt="">
                                 </div>
-                                <h3 class="fs-4 mt-3 fw-bold">Web Application</h3>
+                                <h3 class="fs-4 mt-3 fw-bold">Progressive Web Application</h3>
                             </div>
                         </div>
      
@@ -423,11 +435,8 @@
             <div class="  col-lg-1"></div>
             <!-- <div class="col-md-1"></div> -->
             <div class="col-md-12 col-lg-4">
-                <h1 class="mb-3  ">ENNOVA TECHNOLOGY</h1>
-                <p>Welcome to ENNOVA TECHNOLOGY, your trusted partner in advanced electrical solutions and IT
-                    integration.
-                    With a steadfast commitment to excellence, webring forth a diverse range of cutting-edge products and
-                    services designed to empower industries, streamline operations, and enhance efficiency.</p>
+                <a href="./index.html"><img src="./Hero/ENNOVAlogo.png" class="contactimgeno" alt=""></a>
+                <p>At Ennova Technology, we specialize in creating innovative solutions for businesses. From designing electronics to developing websites, software, and apps, we offer a wide range of services to help businesses succeed. We also provide cutting-edge IoT solutions for industrial automation, making processes more efficient and effective. Our goal is to use technology to solve problems and drive growth for our clients.</p>
             </div>
             <!-- <div class="col-md-1"></div> -->
             <div class="  col-lg-1"></div>
@@ -467,14 +476,16 @@
             </div>
         </div>
     </section>
-  <footer class="d-flex justify-content-center bg p-3 ">Copyright @2024 Proudly Crafted by Ennova Technology</footer>
+    <footer class="d-flex justify-content-center bg p-3 ">Copyright @2024 Proudly Crafted by Ennova Technology</footer>
 
 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+  crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
-    <script src="./app.js"></script>
+
+<script src="./app.js"> </script>
 </body>
 
 </html>
