@@ -2,16 +2,7 @@
 // annimation js
 AOS.init();
 
-// document.querySelector('.mobile').style.display = "none";
-
-// function handleMenu() {
-//     document.querySelector('.mobile').style.display = "flex";
-// }
-
-// function handleClose() {
-//     document.querySelector('.mobile').style.display = "none";
-// }
-///////////////////
+ 
 
 
 // (function($){
@@ -45,19 +36,6 @@ function openPage(pageName,elmnt,color) {
   // Get the element with id="defaultOpen" and click on it
   document.getElementById("defaultOpen").click();
 
-//  use cases 
-//  let items = document.querySelectorAll('.carousel .carousel-item')
+ 
 
-// 		items.forEach((el) => {
-// 			const minPerSlide = 4
-// 			let next = el.nextElementSibling
-// 			for (var i=1; i<minPerSlide; i++) {
-// 				if (!next) {
-//             // wrap carousel by using first child
-//             next = items[0]
-//         }
-//         let cloneChild = next.cloneNode(true)
-//         el.appendChild(cloneChild.children[0])
-//         next = next.nextElementSibling
-//     }
-// })
+

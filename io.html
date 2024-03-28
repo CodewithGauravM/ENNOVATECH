@@ -18,41 +18,7 @@
 
 
     <link rel="stylesheet" href="./style.css">
-    <style>
-        @media (max-width: 767px) {
-  .carousel-inner .carousel-item > div {
-    display: none;
-  }
-  .carousel-inner .carousel-item > div:first-child {
-    display: block;
-  }
-}
 
-.carousel-inner .carousel-item.active,
-.carousel-inner .carousel-item-next,
-.carousel-inner .carousel-item-prev {
-  display: flex;
-}
-
- 
-@media (min-width: 768px) {
-
-  .carousel-inner .carousel-item-end.active,
-  .carousel-inner .carousel-item-next {
-    transform: translateX(25%);
-  }
-
-  .carousel-inner .carousel-item-start.active, 
-  .carousel-inner .carousel-item-prev {
-    transform: translateX(-25%);
-  }
-}
-
-.carousel-inner .carousel-item-end,
-.carousel-inner .carousel-item-start { 
-  transform: translateX(0);
-}
-    </style>
 </head>
 
 
@@ -61,9 +27,9 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top ">
         <div class="container-fluid">
 
-            <div>
+            <div class="">
                 <a class="navbar-brand" href="./index.html">
-                    <img src="./Hero/logo-removebg-preview.png" width="70px" alt="">
+                    <img src="./Hero/logo-removebg-preview.png" width="60px" alt="">
                     <img src="./Hero/ENNOVAlogo.png" width="130px"></a>
             </div>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -72,10 +38,10 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <div class="collapse navbar-collapse flex-grow-1 " id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex align-items-center fw-bold ">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                        <a class="nav-link" aria-current="page" href="./index.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./about.html">About Us</a>
@@ -86,14 +52,14 @@
                             What we do
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="./ITService.html">OUR SERVICE</a></li>
-                            <li><a class="dropdown-item" href="./Nproduct.html">OUR PRODUCT</a></li>
+                            <li><a class="dropdown-item fw-bold " href="./ITService.html">OUR SERVICE</a></li>
+                            <li><a class="dropdown-item fw-bold " href="./Nproduct.html">OUR PRODUCT</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./Contact.html">Contact Us</a>
                     </li>
-                    <li><a href="tel:+917972911543" class="fw-bold m-2 btn btn-primary text-light">Call Now</a></li>
+                    <li><a href="tel:+917972911543" class="fw-bold m-1 btn btn-primary text-light">Call Now</a></li>
                 </ul>
             </div>
         </div>
@@ -107,10 +73,8 @@
                 <div class="col-lg-1"></div>
                 <div class="col-lg-5 col-md-6">
                     <div class=" ">
-                        <div class="carousel-item active">
-                            <img src="./iocard/3.png" class=" bg-transparent img-fluid  w-100" alt="...">
-                        </div>
-                        <!-- <div>
+
+                        <div>
                             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                                 <div class="carousel-indicators">
                                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
@@ -158,7 +122,7 @@
                                     <span class="visually-hidden">Next</span>
                                 </button>
                             </div>
-                        </div> -->
+                        </div>
                         <div class="col-md-6"></div>
                     </div>
                 </div>
@@ -183,29 +147,23 @@
         <div class="container ">
             <h3 class="fw-bold text-primary">KEY FEATURES</h3>
             <ul>
-                <li>WiFi connectivity for wireless communication</li>
                 <li>Multiple GPIO pins for versatile interfacing</li>
                 <li>Compact and lightweight design for easy integration</li>
                 <li>Simple setup and configuration process</li>
                 <li>Compatible with a wide range of platforms and programming languages</li>
                 <li>Supports both input and output operations on GPIO pins</li>
-                <li>Built-in security features for data protection</li>
                 <li>Firmware upgradeable for future enhancements</li>
             </ul>
         </div>
         <div class="container ">
             <h3 class="fw-bold text-primary">SPECIFICATION</h3>
             <ul>
-                <li><span>Interface:</span>WiFi</li>
-                <li><span>GPIO Pins:</span>Multiple (number may vary based on specific model)</li>
-                <li><span>WiFi Standard:</span>802.11 b/g/n</li>
-                <li><span>Operating Voltage:</span>24V DC</li>
-                <li><span>Communication Protocol:</span>TCP/IP, UDP</li>
-                <li><span>Security:</span>WEP, WPA, WPA2</li>
-                <li><span>Operating Temperature:</span>-20°C to +70°C</li>
-                <li><span>Weight:</span>grams</li>
-                <li><span>Dimensions:</span>205 mm(L) x 100mm (W) x 60mm (H) </li>
-                <li><span>Power Consumption:</span>TBD (Dependent on operation mode and usage)</li>
+                <li><span>GPIO Pins:</span> Multiple (number may vary based on specific model)</li>
+                <li><span>Operating Voltage:</span> 24V DC</li>
+                <li><span>Operating Temperature:</span> (-20°C to +70°C)</li>
+                <li><span>Weight:</span> grams</li>
+                <li><span>Dimensions:</span> 205 mm(L) x 100mm (W) x 60mm (H) </li>
+                <li><span>Power Consumption:</span> TBD (Dependent on operation mode and usage)</li>
             </ul>
         </div>
 
@@ -241,14 +199,14 @@
                 <tbody>
                     <tr>
                         <td>1</td>
-                        <td>12VDC 1C0 8CH DIGITAL IO CARD</td>
+                        <td>12VDC 1CO 8CH DIGITAL IO CARD</td>
                         <td>ET-DIO-12V-8CH-1CO</td>
                         <td>12V</td>
                         <td>SPDT</td>
                     </tr>
                     <tr>
                         <td>2</td>
-                        <td>24VDC 1C0 8CH DIGITAL IO CARD</td>
+                        <td>24VDC 1CO 8CH DIGITAL IO CARD</td>
                         <td>ET-DIO-24V-8CH-1CO</td>
                         <td>24V</td>
                         <td>SPDT</td>
@@ -263,7 +221,7 @@
 
     </section>
 
-    <section class="row container ">
+    <section class="row container mb-5">
         <div class="col-lg-4 col-md-3"></div>
         <div class="col-lg-4 col-md-6  d-flex justify-content-center ">
             <div>
@@ -275,290 +233,350 @@
 
     </section>
 
-
-
-
-
-    <!-- /* 11111111111111111111111111    USE CASES    111111111111111111111111111111111111111111
-    11111111111111111111111111111111111111111111111111111111111111111111 */ -->
-    <div class="container text-center my-3">
-        <div class="row mx-auto my-auto justify-content-center">
-            <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner" role="listbox">
-                    <div class="carousel-item active">
-                        <div class="col-md-3">
-                            <div class="card">
-                                <div class="card-img">
-                                    <img src="./IOT1/rodLight.png" alt="dddd" class="img-fluid">
-                                </div>
-                                <h5 class="card-title"> Street Light Controller</h5>
-                                <p class="card-text">Utilizing advanced sensors
-                                    and communication technologies, our system dynamically adjusts street lighting
-                                    based on real time conditions.</p>
-                            </div>
+    <section class="wwww bg-light pb-5">
+        <h2 class="pt-5 ">Use Cases</h2>
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col">
+                    <div class="card-container" id="demo">
+                        <div class="cardww" tabindex="0">
+                            <img src="./IOT1/rodLight.png" alt="dddd" class="img-fluid">
+                            <h5 class="card-title"> Street Light Controller</h5>
+                            <p class="card-text">Utilizing advanced sensors
+                                and communication technologies, our system dynamically adjusts street lighting
+                                based on real time conditions.</p>
                         </div>
-                        <div class="col-md-3">
-                            <div class="card">
-                                <div class="card-img">
-                                    <img src="./IOT1/home.png" alt="dddd" class="img-fluid">
-                                </div>
-                                <h4 class="title"> Home Automation </h4>
-                                <p class="card-text">Our Home Automation solutions are engineered to seamlessly
-                                    integrate technology into the modern home.</p>
-                            </div>
+                        <div class="cardww" tabindex="0">
+                            <img src="./IOT1/home.png" alt="dddd" class="img-fluid">
+                            <h4 class="title"> Home Automation </h4>
+                            <p class="card-text">Our Home Automation solutions are engineered to seamlessly
+                                integrate technology into the modern home.</p>
                         </div>
-                        <div class="col-md-3">
-                            <div class="card">
-                                <div class="card-img">
-                                    <img src="./IOT1/tem.jpg" alt="dddd" class="img-fluid">
-                                </div>
-                                <h5 class="card-title">Room temperature</h5>
-                                <p>Regulate the ambient temperature
-                                    of a room, that is controlled by a
-                                    heating resistor in “heat mode” and
-                                    only by a fan in “cool mode”.</p>
-                            </div>
+                        <div class="cardww" tabindex="0">
+                            <img src="./IOT1/tem.jpg" alt="dddd" class="img-fluid">
+                            <h5 class="card-title">Room temperature</h5>
+                            <p>Regulate the ambient temperature
+                                of a room, that is controlled by a
+                                heating resistor in “heat mode” and
+                                only by a fan in “cool mode”.</p>
                         </div>
-                        <div class="col-md-3">
-                            <div class="card">
-                                <div class="card-img">
-                                    <img src="./IOT1/AC.jpg" alt="dddd" class="img-fluid">
-                                </div>
-                                <h5 class="card-title">HVAC Systems</h5>
-                                <p>Staging of compressors or to allow
-                                    the fans to continue to operate after
-                                    the thermostat is satisfied, in order
-                                    to purge the ducts of air.</p>
-                            </div>
+                        <div class="cardww" tabindex="0">
+                            <img src="./IOT1/AC.jpg" alt="dddd" class="img-fluid">
+                            <h5 class="card-title">HVAC Systems</h5>
+                            <p>Staging of compressors or to allow
+                                the fans to continue to operate after
+                                the thermostat is satisfied, in order
+                                to purge the ducts of air.</p>
                         </div>
-                    </div>
-
-                    <div class="carousel-item">
-                        <div class="col-md-3">
-                            <div class="card">
-                                <div class="card-img">
-                                    <img src="./IOT1/Bar.jpg" alt="dddd" class="img-fluid">
-                                </div>
-                                <h5 class="card-title">Gates / Barriers</h5>
-                                <p class="card-text">Control of a building by using
-                                    an automatic gate or barrier, as well
-                                    as counting the number of vehicles
-                                    or people crossing them.</p>
-                            </div>
+                        <div class="cardww" tabindex="0">
+                            <img src="./IOT1/Bar.jpg" alt="dddd" class="img-fluid">
+                            <h5 class="card-title">Gates / Barriers</h5>
+                            <p class="card-text">Control of a building by using
+                                an automatic gate or barrier, as well
+                                as counting the number of vehicles
+                                or people crossing them.</p>
                         </div>
-                        <div class="col-md-3">
-                            <div class="card">
-                                <div class="card-img">
-                                    <img src="./IOT1/B3.jpg" alt="dddd" class="img-fluid">
-                                </div>
-                                <h5 class="card-title">School bell</h5>
-                                <p class="card-text">A school bell is switched on for a
-                                    certain time, at specific hours during
-                                    the week and at a different time
-                                    during specific dates or seasons.</p>
-                            </div>
+                        <div class="cardww" tabindex="0">
+                            <img src="./IOT1/B3.jpg" alt="dddd" class="img-fluid">
+                            <h5 class="card-title">School bell</h5>
+                            <p class="card-text">A school bell is switched on for a
+                                certain time, at specific hours during
+                                the week and at a different time
+                                during specific dates or seasons.</p>
                         </div>
-                        <div class="col-md-3">
-                            <div class="card">
-                                <div class="card-img">
-                                    <img src="./IOT1/L2.jpg" alt="dddd" class="img-fluid">
-                                </div>
-                                <h5 class="card-title">Light signal column</h5>
-                                <p class="card-text">Millenium Slim Solid-State version
-                                    can manage the flashing on light
-                                    signal columns in order to make the
-                                    lamp blink with equal ON/OFF times.</p>
-                            </div>
+                        <div class="cardww" tabindex="0">
+                            <img src="./IOT1/L2.jpg" alt="dddd" class="img-fluid">
+                            <h5 class="card-title">Light signal column</h5>
+                            <p class="card-text">Millenium Slim Solid-State version
+                                can manage the flashing on light
+                                signal columns in order to make the
+                                lamp blink with equal ON/OFF times.</p>
                         </div>
-                        <div class="col-md-3">
-                            <div class="card">
-                                <div class="card-img">
-                                    <img src="./IOT1/Gw1.jpg" alt="dddd" class="img-fluid">
-                                </div>
-                                <h5 class="card-title"> Irrigation System</h5>
-                                <p class="card-text">Control the water pumps, manage
-                                    watering scheduler & liquid fertilizers
-                                    and measuring the temperature and
-                                    ground humidity.</p>
-                            </div>
+                        <div class="cardww" tabindex="0">
+                            <img src="./IOT1/Gw1.jpg" alt="dddd" class="img-fluid">
+                            <h5 class="card-title"> Irrigation System</h5>
+                            <p class="card-text">Control the water pumps, manage
+                                watering scheduler & liquid fertilizers
+                                and measuring the temperature and
+                                ground humidity.</p>
+                        </div>
+                        <div class="cardww" tabindex="0">
+                            <img src="./IOT1/D6.jpg" alt="dddd" class="img-fluid">
+                            <h5 class="card-title">Automatic Shutters</h5>
+                            <p class="card-text">Millenium Slim can be used for
+                                simple roller shutter control that
+                                requires scheduler and two-button
+                                manual control (open / close)</p>
+                        </div>
+                        <div class="cardww" tabindex="0">
+                            <img src="./IOT1/greenHouse.png" alt="dddd" class="img-fluid">
+                            <h5 class="card-title">Green House</h5>
+                            <p class="card-text">We specialize in green house automation, integrating smart
+                                technologies
+                                to optimize environmental conditions.</p>
+                        </div>
+                        <div class="cardww" tabindex="0">
+                            <img src="./IOT1/P5.jpg" alt="dddd" class="img-fluid">
+                            <h5 class="card-title">Pools & fountains</h5>
+                            <p>Manage circulation pumps for water
+                                filling, filtration, as well as
+                                monitoring of level, temperature and
+                                water conductivity.</p>
+                        </div>
+                        <div class="cardww" tabindex="0">
+                            <img src="./IOT1/4.jpg" alt="dddd" class="img-fluid">
+                            <h5 class="card-title">Exterior lighting</h5>
+                            <p class="card-text">Door and garden lights are switched
+                                on at specific times of the day, if
+                                someone is in front of the door or
+                                manually with a switch.</p>
                         </div>
                     </div>
-
-                    <div class="carousel-item">
-                        <div class="col-md-3">
-                            <div class="card">
-                                <div class="card-img">
-                                    <img src="./IOT1/D6.jpg" alt="dddd" class="img-fluid">
-                                </div>
-                                <h5 class="card-title">Automatic Shutters</h5>
-                                <p class="card-text">Millenium Slim can be used for
-                                    simple roller shutter control that
-                                    requires scheduler and two-button
-                                    manual control (open / close)</p>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="card">
-                                <div class="card-img">
-                                    <img src="./IOT1/greenHouse.png" alt="dddd" class="img-fluid">
-                                </div>
-                                <h5 class="card-title">Green House</h5>
-                                <p class="card-text">We specialize in green house automation, integrating smart
-                                    technologies
-                                    to optimize environmental conditions.</p>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="card">
-                                <div class="card-img">
-                                    <img src="./IOT1/P5.jpg" alt="dddd" class="img-fluid">
-                                </div>
-                                <h5 class="card-title">Pools & fountains</h5>
-                                <p>Manage circulation pumps for water
-                                    filling, filtration, as well as
-                                    monitoring of level, temperature and
-                                    water conductivity.</p>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="card">
-                                <div class="card-img">
-                                    <img src="./IOT1/4.jpg" alt="dddd" class="img-fluid">
-                                </div>
-                                <h5 class="card-title">Exterior lighting</h5>
-                                <p class="card-text">Door and garden lights are switched
-                                    on at specific times of the day, if
-                                    someone is in front of the door or
-                                    manually with a switch.</p>
-                            </div>
-                        </div>
-
-                    </div>
-                    <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel" role="button"
-                        data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    </a>
-                    <a class="carousel-control-next bg-transparent w-aut" href="#recipeCarousel" role="button"
-                        data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    </a>
                 </div>
             </div>
         </div>
-    </div>
-        <!-- /* 1111111111111111111111111111    USE CASES END   1111111111111111111111111111111111111111
-    11111111111111111111111111111111111111111111111111111111111111111111 */ -->
+    </section>
+
+
+    <section id="usecasesdiv" class="mb-5 ">
+        <h2 class=" fw-bold ">Use Cases</h2>
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="8"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="9"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="10"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="11"
+                    aria-label="Slide 3"></button>
+
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="cardmm">
+                        <img src="./IOT1/4.jpg" alt="dddd" class="img-fluid">
+                        <h5 class="card-title">Exterior lighting</h5>
+                        <p class="card-text">Door and garden lights are switched
+                            on at specific times of the day, if
+                            someone is in front of the door or
+                            manually with a switch.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="cardmm">
+                        <img src="./IOT1/P5.jpg" alt="dddd" class="img-fluid">
+                        <h5 class="card-title">Pools & fountains</h5>
+                        <p>Manage circulation pumps for water
+                            filling, filtration, as well as
+                            monitoring of level, temperature and
+                            water conductivity.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="cardmm">
+                        <img src="./IOT1/greenHouse.png" alt="dddd" class="img-fluid">
+                        <h5 class="card-title">Green House</h5>
+                        <p class="card-text">We specialize in green house automation, integrating smart
+                            technologies
+                            to optimize environmental conditions.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="cardmm">
+                        <img src="./IOT1/D6.jpg" alt="dddd" class="img-fluid">
+                        <h5 class="card-title">Automatic Shutters</h5>
+                        <p class="card-text">Millenium Slim can be used for
+                            simple roller shutter control that
+                            requires scheduler and two-button
+                            manual control (open / close)</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="cardmm">
+                        <img src="./IOT1/Gw1.jpg" alt="dddd" class="img-fluid">
+                        <h5 class="card-title"> Irrigation System</h5>
+                        <p class="card-text">Control the water pumps, manage
+                            watering scheduler & liquid fertilizers
+                            and measuring the temperature and
+                            ground humidity.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="cardmm">
+                        <img src="./IOT1/L2.jpg" alt="dddd" class="img-fluid">
+                        <h5 class="card-title">Light signal column</h5>
+                        <p class="card-text">Millenium Slim Solid-State version
+                            can manage the flashing on light
+                            signal columns in order to make the
+                            lamp blink with equal ON/OFF times.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="cardmm">
+                        <img src="./IOT1/B3.jpg" alt="dddd" class="img-fluid">
+                        <h5 class="card-title">School bell</h5>
+                        <p class="card-text">A school bell is switched on for a
+                            certain time, at specific hours during
+                            the week and at a different time
+                            during specific dates or seasons.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="cardmm">
+                        <img src="./IOT1/Bar.jpg" alt="dddd" class="img-fluid">
+                        <h5 class="card-title">Gates / Barriers</h5>
+                        <p class="card-text">Control of a building by using
+                            an automatic gate or barrier, as well
+                            as counting the number of vehicles
+                            or people crossing them.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="cardmm">
+                        <img src="./IOT1/tem.jpg" alt="dddd" class="img-fluid">
+                        <h5 class="card-title">Room temperature</h5>
+                        <p>Regulate the ambient temperature
+                            of a room, that is controlled by a
+                            heating resistor in “heat mode” and
+                            only by a fan in “cool mode”.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="cardmm">
+                        <img src="./IOT1/home.png" alt="dddd" class="img-fluid">
+                        <h4 class="title"> Home Automation </h4>
+                        <p class="card-text">Our Home Automation solutions are engineered to seamlessly
+                            integrate technology into the modern home.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="cardmm">
+                        <img src="./IOT1/rodLight.png" alt="dddd" class="img-fluid">
+                        <h5 class="card-title"> Street Light Controller</h5>
+                        <p class="card-text">Utilizing advanced sensors
+                            and communication technologies, our system dynamically adjusts street lighting
+                            based on real time conditions.</p>
+                    </div>
+                </div>
 
 
 
-        <section class="container mb-3  ">
-            <h3 class="fw-bold ">DOWNLOADS:</h3>
-            <div class="downloadbtn d-flex flex-column ">
-                <div class="vn-red">
-                    <a href="./data_pdf/Leone Relay Datasheet.pdf" target="_blank">RELAY LEONE DATASHEET</a>
-                </div>
-                <div class="vn-red">
-                    <a href="./data_pdf/G2RL-1-E-HA.PDF" target="_blank">RELAY G2RL DATASHEET</a>
-                </div>
-                <div class="vn-red">
-                    <a href="./data_pdf/IO CARDS DATASHEET.pdf" target="_blank">I/O CARD DATASHEET</a>
-                </div>
-                <div class="vn-red">
-                    <a href="#">I/O CARD USER MANUAL</a>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+
+    <section class="container mb-3  mt-3 ">
+        <h3 class="fw-bold ">DOWNLOADS:</h3>
+        <div class="downloadbtn d-flex flex-column ">
+            <div class="vn-red">
+                <a href="./data_pdf/Leone Relay Datasheet.pdf" target="_blank">RELAY LEONE DATASHEET</a>
+            </div>
+            <div class="vn-red">
+                <a href="./data_pdf/G2RL-1-E-HA.PDF" target="_blank">RELAY G2RL DATASHEET</a>
+            </div>
+            <div class="vn-red">
+                <a href="./data_pdf/IO CARDS DATASHEET.pdf" target="_blank">I/O CARD DATASHEET</a>
+            </div>
+            <div class="vn-red">
+                <a href="#">I/O CARD USER MANUAL</a>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contactdiv" class="container-fluid ">
+        <div class="row p-3 ">
+            <div class="  col-lg-1"></div>
+            <!-- <div class="col-md-1"></div> -->
+            <div class="col-md-12 col-lg-4">
+                <a href="./index.html"><img src="./Hero/ENNOVAlogo.png" class="contactimgeno" alt=""></a>
+                <p>At Ennova Technology, we specialize in creating innovative solutions for businesses. From
+                    designing
+                    electronics to developing websites, software, and apps, we offer a wide range of services to
+                    help
+                    businesses succeed. We also provide cutting-edge IoT solutions for industrial automation, making
+                    processes more efficient and effective. Our goal is to use technology to solve problems and
+                    drive
+                    growth for our clients.</p>
+            </div>
+            <!-- <div class="col-md-1"></div> -->
+            <div class="  col-lg-1"></div>
+            <div class="col-md-6 col-lg-2">
+                <h3 class="mb-1  fw-bold ">COMPANY</h3>
+                <div class="d-flex flex-column divancal">
+                    <a href="./index.html">HOME</a>
+                    <a href="./about.html">ABOUT US</a>
+                    <a href="./ITService.html">SERVICES</a>
+                    <a href="./Nproduct.html">OUR PRODUCT</a>
+                    <a href="./Contact.html">CONTACT</a>
                 </div>
             </div>
-        </section>
+            <div class="col-md-6 col-lg-4">
+                <h3 class="mb-1 fw-bold ">CONTACT INFORMATION</h3>
 
+                <p> <i class="far fa-clock"></i> 9:30 - 18:30 (IST)</p>
+                <p><i class="fas fa-phone"></i> +91-7972911543, +91-8830458682</p>
 
-        <section id="contactdiv" class="container-fluid ">
-            <div class="row p-3 ">
-                <div class="  col-lg-1"></div>
-                <!-- <div class="col-md-1"></div> -->
-                <div class="col-md-12 col-lg-4">
-                    <a href="./index.html"><img src="./Hero/ENNOVAlogo.png" class="contactimgeno" alt=""></a>
-                    <p>At Ennova Technology, we specialize in creating innovative solutions for businesses. From
-                        designing
-                        electronics to developing websites, software, and apps, we offer a wide range of services to
-                        help
-                        businesses succeed. We also provide cutting-edge IoT solutions for industrial automation, making
-                        processes more efficient and effective. Our goal is to use technology to solve problems and
-                        drive
-                        growth for our clients.</p>
+                <div>
+                    <p><i class="far fa-envelope"></i> purchase.ennovatech@gmail.com</p>
+                    <p><i class="far fa-envelope"></i> development.ennovatech@gmail.com</p>
                 </div>
-                <!-- <div class="col-md-1"></div> -->
-                <div class="  col-lg-1"></div>
-                <div class="col-md-6 col-lg-2">
-                    <h3 class="mb-1  fw-bold ">COMPANY</h3>
-                    <div class="d-flex flex-column divancal">
-                        <a href="./index.html">HOME</a>
-                        <a href="./about.html">ABOUT US</a>
-                        <a href="./ITService.html">SERVICES</a>
-                        <a href="./Nproduct.html">OUR PRODUCT</a>
-                        <a href="./Contact.html">CONTACT</a>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <h3 class="mb-1 fw-bold ">CONTACT INFORMATION</h3>
+                <p><i class="fa-solid fa-location-dot"></i> #Plot No.F45, Kupwad M.I.D.C road, Near TCI Freight.
+                    Kupwad, Dist.-Sangli, Maharashtra- 416436.</p>
+                <div id="iconssym">
+                    <a href="https://www.facebook.com/profile.php?id=100063876886966"> <i
+                            class="fab fa-facebook-square"></i></a>
+                    <a href="https://twitter.com/EnnovaTech24"> <i class="fab fa-twitter-square"></i></a>
+                    <a href="https://youtube.com/@ennovatechnology1286?si=DltyPRZSHjJ3qHM1"> <i
+                            class="fab fa-youtube-square"></i></a>
+                    <a href="https://www.linkedin.com/company/ennova-technology/"> <i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/ennova_technology?igsh=MTVieXY2Y29jcDgwaA=="> <i
+                            class="fab fa-instagram-square"></i></a>
 
-                    <p> <i class="far fa-clock"></i> 9:30 - 18:30 (IST)</p>
-                    <p><i class="fas fa-phone"></i> +91-7972911543, +91-8830458682</p>
-
-                    <div>
-                        <p><i class="far fa-envelope"></i> purchase.ennovatech@gmail.com</p>
-                        <p><i class="far fa-envelope"></i> development.ennovatech@gmail.com</p>
-                    </div>
-                    <p><i class="fa-solid fa-location-dot"></i> #Plot No.F45, Kupwad M.I.D.C road, Near TCI Freight.
-                        Kupwad, Dist.-Sangli, Maharashtra- 416436.</p>
-                    <div id="iconssym">
-                        <a href="https://www.facebook.com/profile.php?id=100063876886966"> <i
-                                class="fab fa-facebook-square"></i></a>
-                        <a href="https://twitter.com/EnnovaTech24"> <i class="fab fa-twitter-square"></i></a>
-                        <a href="https://youtube.com/@ennovatechnology1286?si=DltyPRZSHjJ3qHM1"> <i
-                                class="fab fa-youtube-square"></i></a>
-                        <a href="https://www.linkedin.com/company/ennova-technology/"> <i
-                                class="fab fa-linkedin"></i></a>
-                        <a href="https://www.instagram.com/ennova_technology?igsh=MTVieXY2Y29jcDgwaA=="> <i
-                                class="fab fa-instagram-square"></i></a>
-
-                    </div>
                 </div>
             </div>
-        </section>
-        <footer class="d-flex justify-content-center bg p-3 ">Copyright @2024 Proudly Crafted by Ennova Technology
-        </footer>
+        </div>
+    </section>
+    <footer class="d-flex justify-content-center bg p-3 ">Copyright @2024 Proudly Crafted by Ennova Technology
+    </footer>
 
 
 
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="./app.js"> </script>
 
 
-
-
-
-
-        <script src="./app.js"> </script>
-        <!-- // scroll section  -->
-        <script>
-
-            let items = document.querySelectorAll('.carousel .carousel-item')
-
-            items.forEach((el) => {
-                const minPerSlide = 4
-                let next = el.nextElementSibling
-                for (var i = 1; i < minPerSlide; i++) {
-                    if (!next) {
-
-                        next = items[0]
-                    }
-                    let cloneChild = next.cloneNode(true)
-                    el.appendChild(cloneChild.children[0])
-                    next = next.nextElementSibling
-                }
-            })
-        </script>
 </body>
 
 </html>
