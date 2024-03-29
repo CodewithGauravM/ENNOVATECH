@@ -17,7 +17,7 @@
 </head>
 
 <body>
-  
+
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top ">
         <div class="container-fluid">
@@ -44,7 +44,7 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
-                            What we do
+                            What We Do
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item fw-bold " href="./ITService.html">OUR SERVICE</a></li>
@@ -59,107 +59,112 @@
             </div>
         </div>
     </nav>
-    <section id="contactmap">
-        <div class="row container-fluid  ">
-            <div class="col-lg-1"></div>
-            <div class="col-lg-5 col-md-12 ">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15272.033675814273!2d74.60117849257868!3d16.87547807663879!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc123c1dc153abf%3A0x614d9283e7c55d34!2sEnnova%20technology!5e0!3m2!1sen!2sin!4v1707903701866!5m2!1sen!2sin"
-                    style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-            <!-- <div class="col-md-2"></div> -->
-            <div class="col-lg-4 ">
-                <div class="contdivnum">
-                    <h1>Contact Us</h1>
-                    <div class="callin">
-                        <div>
-                            <i class="far fa-clock"></i>
-                        </div>
-                        <div>
-                            <h6 class="fw-bold ">Working Hour</h6>
-                            <p>9:30 - 18:30 (IST)</p>
-                        </div>
+
+
+
+    <div class="google-map">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15272.033675814273!2d74.60117849257868!3d16.87547807663879!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc123c1dc153abf%3A0x614d9283e7c55d34!2sEnnova%20technology!5e0!3m2!1sen!2sin!4v1707903701866!5m2!1sen!2sin"
+            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <div class="row container-fluid ">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-5 col-md-6 ">
+            <form class="form">
+                <h2>User Profile</h2>
+                <div class="form-group">
+                    <label for="email">Full Name:</label>
+                    <div class="relative">
+                        <input class="form-control" id="name" type="text" pattern="[a-zA-Z\s]+" required="" autofocus=""
+                            title="Username should only contain letters. e.g. Piyush Gupta" autocomplete=""
+                            placeholder="Type your name here...">
+                        <i class="fa fa-user"></i>
                     </div>
-                    <div class="callin">
-                        <div>
-                            <i class="fas fa-phone"></i>
-                        </div>
-                        <div>
-                            <h6 class="fw-bold">Call Us Now</h6>
-                            <p>+91-7972911543,<br>+91-8830458682</p>
-                        </div>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email address:</label>
+                    <div class="relative">
+                        <input class="form-control" type="email" required="" placeholder="Type your email address..."
+                            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
+                        <i class="fa fa-envelope"></i>
                     </div>
-                    <div class="callin">
-                        <div>
-                            <i class="far fa-envelope"></i>
-                        </div>
-                        <div>
-                            <h6 class="fw-bold ">Email Us</h6>
-                            <p> purchase.ennovatech@gmail.com development.ennovatech@gmail.com</p>
-                        </div>
+                </div>
+                <div class="form-group">
+                    <label for="email">Contact Number:</label>
+                    <div class="relative">
+                        <input class="form-control" type="text" maxlength="10"
+                            oninput="this.value=this.value.replace(/[^0-9]/g,'');" required=""
+                            placeholder="Type your Mobile Number...">
+                        <i class="fa fa-phone"></i>
                     </div>
-                    <div class="callin">
-                        <div>
-                            <i class="fa-solid fa-location-dot"></i>
-                        </div>
-                        <div>
-                            <h6 class="fw-bold ">Address :</h6>
-                            <p>#Plot No.F45, Kupwad M.I.D.C road, Near TCI Freight.
-                                Kupwad, Dist.-Sangli, Maharashtra- 416436.</p>
-                        </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Specilization:</label>
+                    <div class="relative">
+                        <input class="form-control" type="text" id="tags" required=""
+                            placeholder="Type your specialization...">
+                        <i class="fa fa-css3"></i>
                     </div>
-
-                </div>
-            </div>
-            <div class="col-lg-2"></div>
-        </div>
-
-    </section>
-
-
-
-
-
-
-    <section id="contactform" class="container-fluid  d-flex justify-content-center  ">
-        <div class="  contform mt-3 mb-3 ">
-            <form>
-                <div class="form-group">
-
-                    <input type="text" placeholder="Full Name" class="form-control" name="name">
-                </div>
-                <div class="form-group">
-
-                    <input type="number" placeholder="Contact No" class="form-control" name="dob">
-                </div>
-                <div class="form-group">
-
-                    <input type="email" placeholder="Email" class="form-control" name="email">
-                </div>
-                <div class="form-group">
-
-                    <input type="text" placeholder="Address" class="form-control" name="address">
-                </div>
-                <div class="form-group">
-
-                    <input type="text" placeholder="Subject " class="form-control" name="address">
-                </div>
-                <div class="form-group">
-
-                    <textarea name="form-group" placeholder="Enter massage" class="form-control h"></textarea>
                 </div>
 
-                <button type="reset" class="btn bg-gradient">Reset</button>
-                <button type="submit" class="btn bg-gradient" style="float:right">Submit</button>
+
+                <div class="tright">
+                    <a href=""><button class="movebtn movebtnre" type="Reset"><i class="fa fa-fw fa-refresh"></i> Reset
+                        </button></a>
+                    <a href=""><button class="movebtn movebtnsu" type="Submit">Submit <i
+                                class="fa fa-fw fa-paper-plane"></i></button></a>
+                </div>
             </form>
-
-
+ 
         </div>
-    </section>
 
+        <div class="col-lg-5 col-md-6 ">
+            <div class="newcontactdiv">
+                <h1 class="mt-3 ">Contact Us</h1>
+                <div class="callin">
+                    <div>
+                        <i class="far fa-clock"></i>
+                    </div>
+                    <div>
+                        <h6 class="fw-bold ">Working Hour</h6>
+                        <p>9:30 - 18:30 (IST)</p>
+                    </div>
+                </div>
+                <div class="callin">
+                    <div>
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <div>
+                        <h6 class="fw-bold">Call Us Now</h6>
+                        <p>+91-7972911543,<br>+91-8830458682</p>
+                    </div>
+                </div>
+                <div class="callin">
+                    <div>
+                        <i class="far fa-envelope"></i>
+                    </div>
+                    <div>
+                        <h6 class="fw-bold ">Email Us</h6>
+                        <p> purchase.ennovatech@gmail.com <br> development.ennovatech@gmail.com</p>
+                    </div>
+                </div>
+                <div class="callin">
+                    <div>
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <div>
+                        <h6 class="fw-bold ">Address :</h6>
+                        <p>#Plot No.F45, Kupwad M.I.D.C road, Near TCI Freight.
+                            Kupwad, Dist.-Sangli, Maharashtra- 416436.</p>
+                    </div>
+                </div>
 
-
+            </div>
+        </div>
+        <div class="col-lg-1"></div>
+    </div>
 
 
     <section id="contactdiv" class="container-fluid ">
@@ -168,7 +173,11 @@
             <!-- <div class="col-md-1"></div> -->
             <div class="col-md-12 col-lg-4">
                 <a href="./index.html"><img src="./Hero/ENNOVAlogo.png" class="contactimgeno" alt=""></a>
-                <p>At Ennova Technology, we specialize in creating innovative solutions for businesses. From designing electronics to developing websites, software, and apps, we offer a wide range of services to help businesses succeed. We also provide cutting-edge IoT solutions for industrial automation, making processes more efficient and effective. Our goal is to use technology to solve problems and drive growth for our clients.</p>
+                <p>At Ennova Technology, we specialize in creating innovative solutions for businesses. From designing
+                    electronics to developing websites, software, and apps, we offer a wide range of services to help
+                    businesses succeed. We also provide cutting-edge IoT solutions for industrial automation, making
+                    processes more efficient and effective. Our goal is to use technology to solve problems and drive
+                    growth for our clients.</p>
             </div>
             <!-- <div class="col-md-1"></div> -->
             <div class="  col-lg-1"></div>
@@ -208,7 +217,7 @@
             </div>
         </div>
     </section>
-  <footer class="d-flex justify-content-center bg p-3 ">Copyright @2024 Proudly Crafted by Ennova Technology</footer>
+    <footer class="d-flex justify-content-center bg p-3 ">Copyright @2024 Proudly Crafted by Ennova Technology</footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/js/bootstrap.min.js"
         integrity="sha512-EKWWs1ZcA2ZY9lbLISPz8aGR2+L7JVYqBAYTq5AXgBkSjRSuQEGqWx8R1zAX16KdXPaCjOCaKE8MCpU0wcHlHA=="
