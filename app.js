@@ -37,5 +37,4 @@ function openPage(pageName,elmnt,color) {
   document.getElementById("defaultOpen").click();
 
  
-
-
+ 

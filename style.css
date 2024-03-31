@@ -16,7 +16,7 @@
 }
 .value {
   z-index: 1;
-  font-size: 50px;
+  font-size: 50px !important;
   line-height: 55px;
   font-weight: 600;
   margin-bottom: 10px;
@@ -564,13 +564,16 @@ body {
   width: 10rem;
   margin-top: 1rem;
 }
-
+.panelfontdiv li{
+text-align: justify;
+}
+ 
 /* ////////////////////////////////
 ////////////////////////////////
 //////////////// */
 
 .advertisers-service-sec .col {
-  padding: 0 2em 1em 2em;
+  padding: 0 1em 1em 1em;
   text-align: center;
 }
 
@@ -901,6 +904,8 @@ a:link {
 
 .bordermivi {
   border-radius: 1rem;
+  padding: 1rem;
+   
 }
 
 #iconssym a {
@@ -994,6 +999,7 @@ h2 {
 
 #itimghideandview p {
   font-size: 1rem;
+  text-align: justify;
 }
 
 .logosback {
@@ -1467,6 +1473,9 @@ td {
     width: 19rem;
 
   }
+  .value {
+    font-size: 30px !important;
+  }
 
   .fandrow {
     margin-left: 0;
@@ -1607,15 +1616,15 @@ td {
   }
 
   #hero img {
-
-    height: 50vh;
+    margin-top: 4rem;
+    height: 35vh;
     width: 100%;
-
-  }
+}
 
   #hero video {
-    margin-top: 3.8rem;
-    height: 40vh;
+    margin-top: 4rem;
+    height: 35vh;
+    width: 100%;
   }
 
   #imgheading {
@@ -1624,7 +1633,7 @@ td {
   }
 
   #imgheading h1 {
-    font-size: 2.4rem !important;
+    font-size: 2rem !important;
   }
 
   #hero div h5 {
@@ -1643,6 +1652,7 @@ td {
   .carousel-control-next-icon,
   .carousel-control-prev-icon {
     width: 1.4rem;
+    margin-top: 2rem;
   }
 
   #relaytablediv {
@@ -1698,7 +1708,7 @@ td {
   } */
 
   #itimghideandview {
-    padding-top: 0.5rem;
+    padding-top: 2.5rem;
     padding-bottom: 1rem;
   }
 
@@ -1797,6 +1807,9 @@ td {
   /* .keynumber{
     display: flex;
   } */
+  .herosubhead{
+    font-size: 1rem !important;
+  }
 }
 
 
@@ -1908,6 +1921,9 @@ td {
   .google-map {
     padding-bottom: 45% !important;
 
+  }
+  .bordermivi {
+    margin-top: 1rem;
   }
 }
 
