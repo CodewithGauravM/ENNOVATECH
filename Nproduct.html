@@ -10,7 +10,7 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
+        <link rel="icon" type="image/x-icon" href="./Hero/logo-removebg-preview.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -24,7 +24,7 @@
 
             <div class="flex-grow-1">
                 <a class="navbar-brand" href="./index.html">
-                    <img src="./Hero/logo-removebg-preview.png" width="50px" alt="">
+                    <!-- <img src="./Hero/logo-removebg-preview.png" width="50px" alt=""> -->
                     <img src="./Hero/ENNOVAlogo.png" width="130px"></a>
             </div>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -54,7 +54,8 @@
                     <li class="nav-item">
                         <a class="nav-link" href="./Contact.html">Contact Us</a>
                     </li>
-                    <li><a href="tel:+917972911543" class="fw-bold m-1 btn btn-primary text-light">Call Now</a></li>
+                    <li><a href="tel:+917972911543" class="fw-bold m-1 btn btn-primary text-light callnowbtn">Call Now</a></li>
+                    <li><a href="tel:+917972911543" class="fw-bold m-1 btn btn-primary text-light getaquotebtn">Get A Quote</a></li>
                 </ul>
             </div>
         </div>
@@ -67,8 +68,9 @@
     <section id="itimghideandview" class="container-fluid mt-5 upmallpage">
         <h2 class=" fw-bold proheadmargin ">Digital I/O Card</h2>
         <div class="d-flex justify-content-center secitsolutionimgdiv ">
-            <img class="img-fluid " src="./iocard/3 - Copy.png" alt="">
+            <img id="myImg" class="img-fluid " src="./iocard/3 - Copy.png" alt="">
         </div>
+        
         <div class="row ">
             <div class="col-lg-1"></div>
             <div class="col-lg-5  col-md-6">
@@ -83,7 +85,7 @@
                     and efficient input/output integration, ensuring optimal performance in diverse
                     applications.</p>
 
-                <a href="./io.html"><button type="button" class="btn btn-secondary">More Info..</button></a>
+                <a href="./io.html"><button type="button" class="btn btn-secondary">MORE INFO >></button></a>
 
 
             </div>
@@ -100,7 +102,7 @@
         <div class="row ">
             <div class=" col-lg-1"></div>
             <div class="col-lg-5 col-md-6">
-                <p>Discover our Multi channel AC/DC relay cards at Ennova Technology, providing versatile
+                <p>Discover our Multi-channel AC/DC relay cards at Ennova Technology, providing versatile
                     solutions for efficient electrical control. These cards offer multiple channels to meet the
                     diverse needs of your applications. Our Relay Card is a cutting-edge solution designed to enhance
                     control and automation in various applications. Engineered with precision
@@ -111,7 +113,7 @@
                     <li><i class="fa-solid fa-caret-right"></i><a href="./firstcv.html">24VDC Relay Card</a></li>
                     <li><i class="fa-solid fa-caret-right"></i><a href="./thirdcv.html">230VAC Relay Card</a></li>
                 </ul>
-                <a href="./relay.html"><button type="button" class="btn btn-secondary">More Info..</button></a>
+                <a href="./relay.html"><button type="button" class="btn btn-secondary">MORE INFO >></button></a>
             </div>
             <div class="col-lg-5 col-md-6">
                 <img class="img-fluid webimgit" src="./IORELAY/5.png" alt="">
@@ -135,9 +137,9 @@
             <h3>Features:</h3>
             <ul>
                 <li>19 Analog & Digital input and output channels.</li>
-                <li>8 Analog Inputs supports-0-10V,4-20mA,0-2mA,0-5V,0-24V PT100, J, K Type input scale with 12-Bit
+                <li>8 Analog Inputs supports-0-10V, 4-20mA, 0-20mA, 0-5V,0-24V PT100, J And K Type input scale with 12-Bit
                     resolution.</li>
-                <li>2 analog outputs supports - PWM, 0-10V.</li>
+                <li>2 Analog outputs supports - PWM, 0-10V.</li>
                 <li>Compatible with most automation software in the market that supports Modbus RTU/TCP.</li>
                 <li>Write your own code with the help of a large number of sample code provided.</li>
                 <li>High-speed signal processing.</li>
@@ -145,15 +147,15 @@
                 <li>Compact form factor for easy integration.</li>
                 <li>Robust construction for industrial environments.</li>
                 <li>User-configurable option for flexible operation.</li>
-                <li>Green LEDs for input status, Red LEDs for Output Status.</li>
+                <li>Green LEDs for Input Status, Red LEDs for Output Status.</li>
             </ul>
             <h3>Application:</h3>
             <ul>
                 <li>Home Automation</li>
                 <li>Industrial Automation</li>
                 <li>Lighting Control</li>
-                <li>Data acquisition</li>
-                <li>Test and measurement</li>
+                <li>Data Acquisition</li>
+                <li>Test and Measurement</li>
                 <li>Remote Device Management</li>
             </ul>
 
@@ -163,9 +165,9 @@
             <h3>Features:</h3>
             <ul>
                 <li>19 Analog & Digital input and output channels.</li>
-                <li>8 Analog Inputs supports-0-10V, 4-20mA, 0-2mA, 0-5V, 0-24V PT100, J, K Type input scale with 12-Bit
+                <li>8 Analog Inputs supports-0-10V, 4-20mA, 0-20mA, 0-5V, 0-24V PT100, J and K Type input scale with 12-Bit
                     resolution.</li>
-                <li>2 analog outputs supports - PWM, 0-10V.</li>
+                <li>2 Analog outputs supports - PWM, 0-10V.</li>
                 <li>Wireless Communication.</li>
                 <li>Compatible with most automation software in the market that supports Modbus RTU/TCP.</li>
                 <li>Write your own code with the help of a large number of sample code provided.</li>
@@ -174,15 +176,15 @@
                 <li>Compact form factor for easy integration.</li>
                 <li>Robust construction for industrial environments.</li>
                 <li>User-configurable option for flexible operation.</li>
-                <li>Green LEDs for input status, Red LEDs for Output Status.</li>
+                <li>Green LEDs for Input Status, Red LEDs for Output Status.</li>
             </ul>
             <h3>Application:</h3>
             <ul>
                 <li>Home Automation</li>
                 <li>Industrial Automation</li>
                 <li>Lighting Control</li>
-                <li>Data acquisition</li>
-                <li>Test and measurement</li>
+                <li>Data Acquisition</li>
+                <li>Test and Measurement</li>
                 <li>Remote Device Management</li>
             </ul>
         </div>
@@ -190,7 +192,7 @@
         <div id="Contact" class="tabcontent">
             <h3>Features:</h3>
             <ul>
-                <li>22 digital input and output channels.</li>
+                <li>22 Digital input and output channels.</li>
                 <li>Compatible with most automation software in the market that supports Modbus RTU/TCP.</li>
                 <li>Wireless Communication.</li>
                 <li>Write your own code with the help of a large number of sample code provided.</li>
@@ -199,21 +201,21 @@
                 <li>Compact form factor for easy integration.</li>
                 <li>Robust construction for industrial environments.</li>
                 <li>User-configurable option for flexible operation.</li>
-                <li>Green LEDs for input status, Red LEDs for Output Status.</li>
+                <li>Green LEDs for Input Status, Red LEDs for Output Status.</li>
             </ul>
             <h3>Application:</h3>
             <ul>
                 <li>Home Automation</li>
                 <li>Industrial Automation</li>
                 <li>Lighting Control</li>
-                <li>Data acquisition</li>
-                <li>Test and measurement</li>
+                <li>Data Acquisition</li>
+                <li>Test and Measurement</li>
                 <li>Remote Device Management</li>
             </ul>
 
         </div>
         <div id="Gaurav" class="tabcontent">
-            <p>The Ennova Data Logger is a cutting-edge device for capturing, storing, and analyzing data from diverse
+            <p>The Ennova Data Logger is a cutting-edge device for capturing, storing and analyzing data from diverse
                 sensors, ensuring data integrity and informed decision-making across various applications. </p>
             <h3>Features:</h3>
             <ul>
@@ -250,7 +252,7 @@
             <div class="col-md-12 col-lg-4">
                 <a href="./index.html"><img src="./Hero/ENNOVAlogo.png" class="contactimgeno" alt=""></a>
                 <p>At Ennova Technology, we specialize in creating innovative solutions for businesses. From designing
-                    electronics to developing websites, software and application. we offer a wide range of services to help
+                    electronics to developing websites, software and application. We offer a wide range of services to help
                     businesses succeed. We also provide cutting-edge IoT solutions for industrial automation, making
                     processes more efficient and effective. Our goal is to use technology to solve problems and drive
                     growth for our clients.</p>
