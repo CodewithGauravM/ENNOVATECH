@@ -11,7 +11,7 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
 
-
+        <link rel="icon" type="image/x-icon" href="./Hero/logo-removebg-preview.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -29,7 +29,7 @@
 
             <div class="flex-grow-1">
                 <a class="navbar-brand" href="./index.html">
-                    <img src="./Hero/logo-removebg-preview.png" width="50px" alt="">
+                    <!-- <img src="./Hero/logo-removebg-preview.png" width="50px" alt=""> -->
                     <img src="./Hero/ENNOVAlogo.png" width="130px"></a>
             </div>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -59,7 +59,8 @@
                     <li class="nav-item">
                         <a class="nav-link" href="./Contact.html">Contact Us</a>
                     </li>
-                    <li><a href="tel:+917972911543" class="fw-bold m-1 btn btn-primary text-light">Call Now</a></li>
+                    <li><a href="tel:+917972911543" class="fw-bold m-1 btn btn-primary text-light callnowbtn">Call Now</a></li>
+                    <li><a href="tel:+917972911543" class="fw-bold m-1 btn btn-primary text-light getaquotebtn">Get A Quote</a></li>
                 </ul>
             </div>
         </div>
@@ -87,16 +88,13 @@
                                         aria-label="Slide 4"></button>
                                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
                                         aria-label="Slide 5"></button>
-                                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
-                                        aria-label="Slide 6"></button>
+                                  
                                 </div>
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
                                         <img src="./iocard/3.png" class=" bg-transparent  w-100" alt="...">
                                     </div>
-                                    <div class="carousel-item">
-                                        <img src="./iocard/1.png" class="d-block w-100" alt="...">
-                                    </div>
+                                  
                                     <div class="carousel-item">
                                         <img src="./iocard/2.png" class="d-block w-100" alt="...">
                                     </div>
@@ -179,10 +177,10 @@
             </ul>
         </div>
     </section>
-
-    <section id="relaytablediv" class="container-fluid row">
+    <!-- relaytablediv iotavle-->
+    <section id="iotavle" class="container-fluid row">
         <div class="col-lg-8 container ">
-            <h4 class="fw-bold ">PRODUCTS:</h4>
+            <h4 class="fw-bold mt-3">PRODUCTS:</h4>
             <table class=" bg-light ">
                 <thead>
                     <tr>
@@ -215,17 +213,17 @@
             </table>
         </div>
         <div class="col-lg-4 container ">
-            <h4 class="fw-bold ">PART INFORMATION :</h4>
+            <h4 class="fw-bold mt-3">PART INFORMATION :</h4>
             <img class="img-fluid " src="./IOT1/IODiagram.jpeg" alt="">
         </div>
 
     </section>
 
-    <section class="row container mb-5">
+    <section class="row container-fluid  mb-5">
         <div class="col-lg-4 col-md-3"></div>
         <div class="col-lg-4 col-md-6  d-flex justify-content-center ">
             <div>
-                <h4 class="fw-bold ">Product Layout:</h4>
+                <h4 class="fw-bold mt-3 ">Product Layout:</h4>
                 <img class="img-fluid indetailslayoutimg" src="./iocard/IO_diagramin_details.jpeg" alt="">
             </div>
         </div>
@@ -497,31 +495,31 @@
         <h3 class="fw-bold ">DOWNLOADS:</h3>
         <div class="downloadbtn d-flex flex-column ">
             <div class="vn-red">
-                <a href="./data_pdf/Leone Relay Datasheet.pdf" target="_blank">RELAY LEONE DATASHEET</a>
-            </div>
-            <div class="vn-red">
-                <a href="./data_pdf/G2RL-1-E-HA.PDF" target="_blank">RELAY G2RL DATASHEET</a>
-            </div>
-            <div class="vn-red">
                 <a href="./data_pdf/IO CARDS DATASHEET.pdf" target="_blank">I/O CARD DATASHEET</a>
             </div>
             <div class="vn-red">
                 <a href="#">I/O CARD USER MANUAL</a>
             </div>
-        </div>
-     
-        <div class="vn-red">
-            <a href="https://www.keil.com/demo/eval/arm.htm" target="_blank">KEIL SOFTWARE LINK</a>
-        </div>
-        <div class="vn-red">
-            <a href="https://www.nuvoton.com/tool-and-software/ide-and-compiler/get-keil-mdk-lic/" target="_blank">MDK KEIL LICENCE KEY REGISTRATION</a>
-        </div>
-        
-        <div class="vn-red">
-            <a href="./data_pdf/en-us--NuMicro_ISP_Programming.zip" target="_blank">ISP PROGRAMMING FILE</a>
-        </div>
-        <div class="vn-red">
-            <a href="./data_pdf/en-us--ML51_ML54_ML56_BSP_Keil.zip" target="_blank">BSP FILE FOR CONTROLLER</a>
+            <div class="vn-red">
+                <a href="./data_pdf/G2RL-1-E-HA.PDF" target="_blank">RELAY G2RL DATASHEET</a>
+            </div>
+            <div class="vn-red">
+                <a href="./data_pdf/Leone Relay Datasheet.pdf" target="_blank">RELAY LEONE DATASHEET</a>
+            </div>
+            <div class="vn-red">
+                <a href="https://www.keil.com/demo/eval/arm.htm" target="_blank">KEIL SOFTWARE LINK</a>
+            </div>
+            <div class="vn-red">
+                <a href="https://www.nuvoton.com/tool-and-software/ide-and-compiler/get-keil-mdk-lic/"
+                    target="_blank">MDK KEIL LICENCE KEY REGISTRATION</a>
+            </div>
+
+            <div class="vn-red">
+                <a href="./data_pdf/en-us--NuMicro_ISP_Programming.zip" target="_blank">ISP PROGRAMMING FILE</a>
+            </div>
+            <div class="vn-red">
+                <a href="./data_pdf/en-us--ML51_ML54_ML56_BSP_Keil.zip" target="_blank">BSP FILE FOR CONTROLLER</a>
+            </div>
         </div>
     </section>
 
@@ -534,7 +532,7 @@
                 <a href="./index.html"><img src="./Hero/ENNOVAlogo.png" class="contactimgeno" alt=""></a>
                 <p>At Ennova Technology, we specialize in creating innovative solutions for businesses. From
                     designing
-                    electronics to developing websites, software and application. we offer a wide range of services to
+                    electronics to developing websites, software and application. We offer a wide range of services to
                     help
                     businesses succeed. We also provide cutting-edge IoT solutions for industrial automation, making
                     processes more efficient and effective. Our goal is to use technology to solve problems and
