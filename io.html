@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Digital IO | Ennova technology</title>
 
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"> -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -92,7 +92,24 @@
                                 </div>
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
-                                        <img src="./iocard/3.png" class=" bg-transparent  w-100" alt="...">
+                                        <!-- <img src="./iocard/3.png" class=" bg-transparent  w-100" alt="..."> -->
+                                        <div>
+                                            <a data-bs-toggle="modal" data-bs-target="#full_size_image_dialog">
+                                              <img src="./iocard/3.png" class="figure-img img-fluid">
+                                            </a>
+                                          
+                                            <div id="full_size_image_dialog" class="modal">
+                                              <div class="modal-dialog modal-dialog-scrollable">
+                                                <div class="modal-content">
+                                                
+                                                  <div class="modal-body">
+                                                    <img src="./iocard/3.png" class="figure-img img-fluid h-100 w-100 ">
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+
                                     </div>
                                   
                                     <div class="carousel-item">
@@ -128,11 +145,78 @@
 
 
                 <div class="col-lg-4 col-md-6">
-                    <p>Elevate your control systems with our Embedded System-Based IO Card, a cutting-edge solution for
+                    <p class="pt-lg-5 pt-md-0">Elevate your control systems with our Embedded System-Based IO Card, a cutting-edge solution for
                         seamless
                         and efficient input/output integration, ensuring optimal performance in diverse
                         applications.</p>
-                    <button type="button" class="btn btn-secondary">Get A Quote</button>
+                                 <!-- Button trigger modal -->
+                <button type="button" class="btn btn-secondary " data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Get A Quote
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                           
+                            <div class="modal-body">
+                                <form class="form">
+                                    <h2>User Profile</h2>
+                                    <div class="form-group mt-3">
+                                        <label for="email">Full Name:</label>
+                                        <div class="relative">
+                                            <input class="form-control" id="name" type="text" pattern="[a-zA-Z\s]+"
+                                                required="" autofocus=""
+                                                title="Username should only contain letters. e.g. Piyush Gupta"
+                                                autocomplete="" placeholder="Type your name here...">
+                                            <i class="fa fa-user"></i>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mt-3">
+                                        <label for="email">Email address:</label>
+                                        <div class="relative">
+                                            <input class="form-control" type="email" required=""
+                                                placeholder="Type your email address..."
+                                                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
+                                            <i class="fa fa-envelope"></i>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mt-3">
+                                        <label for="email">Contact Number:</label>
+                                        <div class="relative">
+                                            <input class="form-control" type="text" maxlength="10"
+                                                oninput="this.value=this.value.replace(/[^0-9]/g,'');" required=""
+                                                placeholder="Type your Mobile Number...">
+                                            <i class="fa fa-phone"></i>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group mt-3">
+                                        <label for="email">Message:</label>
+                                        <div class="relative">
+                                            <input class="form-control" type="text" id="tags" required=""
+                                                placeholder="Type your Message...">
+                                            <i class="fa fa-css3"></i>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="tright mt-4">
+                                        <button type="button" data-bs-dismiss="modal" class="movebtn movebtnsu"
+                                        aria-label="Close"><i class="fa-solid fa-arrow-left"></i> Back</button>
+                                        <a href=""><button class="movebtn movebtnsu" type="Reset"><i
+                                                    class="fa fa-fw fa-refresh"></i> Reset
+                                            </button></a>
+                                        <a href=""><button class="movebtn movebtnsu" type="Submit">Submit <i
+                                                    class="fa fa-fw fa-paper-plane"></i></button></a>
+                                    </div>
+                                </form>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
 
                 </div>
                 <div class="col-lg-2"></div>
@@ -143,7 +227,7 @@
 
     <section id="relaykeyfesp">
         <div class="container ">
-            <h3 class="fw-bold text-primary">KEY FEATURES</h3>
+            <h3 class="fw-bold text-primary mb-2">KEY FEATURES</h3>
             <ul>
                 <li>Multiple GPIO pins for versatile interfacing</li>
                 <li>Compact and lightweight design for easy integration</li>
@@ -154,7 +238,7 @@
             </ul>
         </div>
         <div class="container ">
-            <h3 class="fw-bold text-primary">SPECIFICATION</h3>
+            <h3 class="fw-bold text-primary mb-2">SPECIFICATION</h3>
             <ul>
                 <li><span>GPIO Pins:</span> Multiple (number may vary based on specific model)</li>
                 <li><span>Operating Voltage:</span> 24V DC</li>
@@ -166,7 +250,7 @@
         </div>
 
         <div class="container ">
-            <h3 class="fw-bold text-primary">APPLICATION</h3>
+            <h3 class="fw-bold text-primary mb-2">APPLICATION</h3>
             <ul>
                 <li>Home Automation Systems</li>
                 <li>Industrial Control and Monitoring</li>

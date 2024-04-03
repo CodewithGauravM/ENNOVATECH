@@ -12,6 +12,13 @@ nav{
   text-align: center;
   width: 100%;
 }
+
+/* pppppppppppppppppppp model pppppppppppppppppppppppppppppppp */
+
+/* pppppppppppppppppppp model end pppppppppppppppppppppppppppppppp */
+
+
+
 /* #iotavle img{
   height: 13rem;
 } */
@@ -69,7 +76,7 @@ p.white {
  }
 .ulstyletype li a {
   font-weight: bold;
-
+  color: #760f0f;
 }
 
 .ulstyletype li {
@@ -112,7 +119,7 @@ p.white {
 
 .form {
   max-width: calc(100vw - 40px);
-  width: 500px;
+  width: 470px;
   height: auto;
   background: rgba(255, 255, 255, 1);
   border-radius: 8px;
@@ -237,7 +244,7 @@ fieldset[disabled] .form-control {
   width:100px;
   background-image: none;
   padding: 8px 10px;
-  margin-bottom:20px;
+  margin-bottom:10px;
   border-radius: 0;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
@@ -464,7 +471,7 @@ body {
 }
 
 .upmallpage {
-  margin-top: 5rem;
+  margin-top: 6rem;
 }
 
 .fandown {
